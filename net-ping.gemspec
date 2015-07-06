@@ -17,6 +17,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency('ffi', '>= 1.0.0')
 
+  spec.add_development_dependency 'rake'
   spec.add_development_dependency('test-unit', '>= 2.5.0')
   spec.add_development_dependency('fakeweb', '>= 1.3.0')
   spec.add_development_dependency "pry"
