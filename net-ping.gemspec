@@ -3,7 +3,7 @@ require 'rbconfig'
 
 Gem::Specification.new do |spec|
   spec.name      = 'net-ping'
-  spec.version   = '1.6.0'
+  spec.version   = '1.6.0rigor'
   spec.license   = 'Artistic 2.0'
   spec.author    = 'Daniel J. Berger'
   spec.email     = 'djberg96@gmail.com'
@@ -17,6 +17,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency('ffi', '>= 1.0.0')
 
+  spec.add_development_dependency 'rake'
   spec.add_development_dependency('test-unit', '>= 2.5.0')
   spec.add_development_dependency('fakeweb', '>= 1.3.0')
   spec.add_development_dependency "pry"
